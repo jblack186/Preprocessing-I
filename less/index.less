@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 2;
 }
 ol, ul {
 	list-style: none;
@@ -53,41 +53,88 @@ table {
     box-sizing: border-box;
 }
 
+
 html, body {
     height: 100%;
 }
 
+@width: 80%;
+
+@border: double black;
+
+@background: beige;
+
+@margin-top: 55px;
+
+@margin: 15px;
+
+@margin-bottom: 15px;
+
+@button-width: 150px;
+
+@button-height: 40px;
+
+@border-radius: 30px;
+
+
+.container {
+	background: lightgray;
+}
+
+h2 {
+	font-size: 3rem;
+  }
+
+a {
+	text-decoration: none;
+	color: black;
+  }
+  nav {
+	display: flex;
+	background: beige;
+	justify-content: space-evenly;
+	height: 70px;
+	border-bottom: solid black 5px;
+	align-items: center;
+
 	a {
-		text-decoration: none;
-		color: black;
-
+		letter-spacing: 3px;
 	}
-
 	
-	  nav {
-		  display: flex;
-		  background: beige;
-		  justify-content: space-evenly;
-		  height: 70px;
-		  border-bottom: solid black 5px;
-		  align-items: center;
-		  
-	  }
+  }
+  .section1 {
+	background: gray;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom: solid black 5px;
+  
+   
+}
 
-	  .container {
-		  background: gray;
-		  display: flex;
-		  justify-content: space-around;
-		  align-items: center;
-		  
-		img {
-			
-			
-		}
-		
-		h2 {
-			font-size: 3rem;
-		}
+.section2 {
+	
+	width: @width;
+	margin: 0 auto;
+	border: @border
+	background: @background;
+	margin-top: @margin-top;
+.about-me {
+	margin: @margin;
+}
 
-	  }
+h2 {
+	margin-bottom: @margin-bottom;
+}
 
+p {
+	margin-bottom: @margin-bottom;
+	
+}
+
+button {
+	width: @border-width;
+	height: @border-height;
+	border-radius: @border-radius;
+}
+}

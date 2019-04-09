@@ -105,7 +105,7 @@ section {
   display: block;
 }
 body {
-  line-height: 1;
+  line-height: 2;
 }
 ol,
 ul {
@@ -134,6 +134,12 @@ html,
 body {
   height: 100%;
 }
+.container {
+  background: lightgray;
+}
+h2 {
+  font-size: 3rem;
+}
 a {
   text-decoration: none;
   color: black;
@@ -146,12 +152,34 @@ nav {
   border-bottom: solid black 5px;
   align-items: center;
 }
-.container {
+nav a {
+  letter-spacing: 3px;
+}
+.section1 {
   background: gray;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  border-bottom: solid black 5px;
 }
-.container h2 {
-  font-size: 3rem;
+.section2 {
+  width: 80%;
+  margin: 0 auto;
+  border: double black;
+  background: beige;
+  margin-top: 55px;
+}
+.section2 .about-me {
+  margin: 15px;
+}
+.section2 h2 {
+  margin-bottom: 15px;
+}
+.section2 p {
+  margin-bottom: 15px;
+}
+.section2 button {
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
 }
