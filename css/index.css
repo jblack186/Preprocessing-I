@@ -183,3 +183,38 @@ nav a {
   height: 40px;
   border-radius: 30px;
 }
+.section3 {
+  width: 80%;
+  margin: 0 auto;
+  border: double black;
+  background: beige;
+  margin-top: 55px;
+}
+.section3 .about-me {
+  margin: 15px;
+}
+.section3 h2 {
+  margin-bottom: 15px;
+}
+.section3 p {
+  margin-bottom: 15px;
+}
+.section3 button {
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+}
+.section3 .skills {
+  margin: 15px;
+}
+.section3 h2 {
+  margin-bottom: 15px;
+}
+.section3 p {
+  margin-bottom: 15px;
+}
+.section3 button {
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+}

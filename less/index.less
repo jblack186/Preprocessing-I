@@ -116,7 +116,7 @@ a {
 	
 	width: @width;
 	margin: 0 auto;
-	border: @border
+	border: @border;
 	background: @background;
 	margin-top: @margin-top;
 .about-me {
@@ -133,8 +133,33 @@ p {
 }
 
 button {
-	width: @border-width;
-	height: @border-height;
+	width: @button-width;
+	height: @button-height;
 	border-radius: @border-radius;
 }
+}
+
+.section3 {
+	.section2;
+	
+	.skills {
+		margin: @margin;
+	}
+	
+
+	h2 {
+		margin-bottom: @margin-bottom;
+	}
+	
+	p {
+		margin-bottom: @margin-bottom;
+		
+	}
+	
+	button {
+		width: @button-width;
+		height: @button-height;
+		border-radius: @border-radius;
+	}
+
 }
