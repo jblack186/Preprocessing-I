@@ -134,3 +134,20 @@ html,
 body {
   height: 100%;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
+.img {
+  border-radius: 85px;
+}
+nav {
+  display: flex;
+  background: beige;
+  justify-content: space-evenly;
+  height: 30px;
+  border-bottom: solid black 5px;
+}
+.container {
+  background: gray;
+}
