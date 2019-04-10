@@ -115,6 +115,17 @@ a {
    
 }
 
+@media( max-width: 500px ) {
+	img {
+		display: none;
+	}
+
+	h2 {
+		text-align: center;
+	}
+
+}
+
 .section2 {
 	
 	width: @width;
@@ -171,7 +182,7 @@ button {
 .section4 {
 	
 	.section2;
-	
+	display: flex;
 	.portfolio {
 		margin: @margin;
 	}
@@ -195,5 +206,20 @@ button {
 
 	img {
 		width: 450px;
+		
+		
+	}
+
+	div img {
+		margin: 15px;
+	}
+	
+	 .img {
+		display: flex;
+		align-items: center;
 	}
 }
+
+	.section5 {
+		.section2;
+	}
